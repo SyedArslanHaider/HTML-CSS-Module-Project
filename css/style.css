@@ -38,11 +38,11 @@ body {
     padding: 15px;
     align-items: center;
  }
- .nav-header li{
-    list-style: none;
+  a{
+    text-decoration: none;
     color: rgb(129, 121, 121);
  }
- .nav-header li :hover{
+  a:hover{
    color: brown;
  }  
  .nav-header :nth-child(1){
@@ -200,5 +200,12 @@ footer :nth-child(3){
     }
     h1{
         font-size: 1.5rem;
+    }
+    .level2{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec_2cont button {
+        width: 100px;
     }
 }
