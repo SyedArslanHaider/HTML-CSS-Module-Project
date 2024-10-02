@@ -1,11 +1,19 @@
 header {
     height: 100px;
     display: flex;
+    position: relative;
 }
 header :nth-child(2) {
     margin-left: auto;
     gap: 50px;
     margin-right: 30px;
+}
+.burger-button {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    text-decoration: none;
 }
 header img {
     width: 70px;
@@ -134,9 +142,9 @@ legend{
     margin-left: 7rem;
     
 }
-span{
+.checkbox label span{
     text-decoration: underline;
-    color: rgba(240, 81, 18, 0.904);;
+    color: rgba(240, 81, 18, 0.904);
 }
 button {
     margin-top: 1rem;
@@ -183,7 +191,7 @@ footer :nth-child(3) {
 @media (max-width: 768px) {
 
 header {
-        flex-direction: column;
+        align-items: center;
         height: auto;
         padding: 20px;
     }
@@ -193,6 +201,15 @@ header {
         gap: 10px;
         margin-left: 0;
     }
+         header img {
+             width: 50px;
+             height: 40px;
+             padding: 15px;
+             margin-left: 1rem;
+         }
+                 .burger-button {
+                     display: block;
+                 }
 .form {
     margin-top: 0.5rem;
     display: flex;
@@ -254,4 +271,25 @@ width: 200px;
     width: 100%;
 
 }
+ .nav-header {
+     display: none;
+     width: 100vw;
+     height: 100vh;
+     flex-direction: column;
+     gap: 10px;
+     right: 0;
+     left: 0;
+     position: absolute;
+     top: 100%;
+     z-index: 10;
+     background: white;
+ }
+
+ .nav-header.active {
+     display: flex;
+ }
+
+ header :nth-child(2) {
+     margin-left: 0;
+ }
 }
