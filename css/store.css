@@ -33,13 +33,16 @@ a {
 }
 
 a:hover {
-  color: brown;
+  color: rgba(240, 81, 18, 0.904);
   font-weight: bold;
 }
 
 .nav-header .active {
   font-weight: bold;
   color: rgb(85, 81, 81);
+}
+.nav-header .active:hover {
+  color: rgba(240, 81, 18, 0.904);
 }
 
 .container {
@@ -150,6 +153,9 @@ button {
   font-size: 1.2rem;
   border-color: rgba(240, 81, 18, 0.904);
   color: white;
+}
+button:hover {
+  transform: scale(1.05);
 }
 .button_div {
   margin-left: 9rem;
