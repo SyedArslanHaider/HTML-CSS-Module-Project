@@ -18,6 +18,7 @@ body {
 header {
   height: 100px;
   display: flex;
+  justify-content: space-between;
   position: relative;
 }
 .burger-button {
@@ -26,22 +27,17 @@ header {
   cursor: pointer;
   margin-left: auto;
 }
-header :nth-child(2) {
-  margin-left: auto;
-  gap: 50px;
-  margin-right: 30px;
-}
 header img {
   width: 70px;
   height: 50px;
   padding: 15px;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 .nav-header {
   display: flex;
   gap: 10px;
-  padding: 15px;
   align-items: center;
+  margin-right: 2rem;
 }
 a {
   text-decoration: none;
