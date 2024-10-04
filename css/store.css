@@ -37,7 +37,7 @@ a:hover {
   font-weight: bold;
 }
 
-.nav-header :nth-child(1) {
+.nav-header .active {
   font-weight: bold;
   color: rgb(85, 81, 81);
 }
@@ -99,11 +99,7 @@ select {
   border-radius: 10px;
   box-sizing: border-box;
 }
-.address11 {
-  margin-top: 1rem;
-  width: 64%;
-}
-.address12 {
+.address {
   margin-top: 1rem;
   width: 64%;
 }
@@ -217,12 +213,7 @@ footer :nth-child(3) {
   .input-group {
     width: 80%;
   }
-  .address11 {
-    margin-top: 0.5rem;
-    width: 80%;
-  }
-
-  .address12 {
+  .address {
     margin-top: 0.5rem;
     width: 80%;
   }

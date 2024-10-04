@@ -50,7 +50,7 @@ a {
 a:hover {
   color: brown;
 }
-.nav-header :nth-child(1) {
+.nav-header .active {
   font-weight: bold;
   color: rgb(85, 81, 81);
 }
