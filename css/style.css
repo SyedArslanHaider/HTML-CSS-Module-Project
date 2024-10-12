@@ -51,7 +51,7 @@ a:hover {
   font-weight: bold;
   color: rgb(85, 81, 81);
 }
-.nav-header .active:hover{
+.nav-header .active:hover {
   color: rgba(240, 81, 18, 0.904);
 }
 .section1 {
@@ -79,13 +79,13 @@ h3 {
 button {
   background-color: rgba(240, 81, 18, 0.904);
   padding: 20px;
-  border-radius: 5px;
   width: 150px;
   text-decoration: none;
   font-size: 1.2rem;
+  border-color: rgba(240, 81, 18, 0.904);
 }
-button:hover{
-transform: scale(1.05);
+button:hover {
+  transform: scale(1.05);
 }
 h1 {
   margin-top: 8rem;
@@ -131,6 +131,7 @@ footer :nth-child(3) {
 .level2 {
   margin-top: 5rem;
   display: flex;
+  background-color: #fcefeb;
   align-items: center;
 }
 .level2 div:nth-child(2) {
@@ -204,13 +205,13 @@ footer :nth-child(3) {
   .section1 p {
     font-size: 0.9rem;
   }
-    .section1 img {
-      height: 240px;
-    }
+  .section1 img {
+    height: 240px;
+  }
 
   button {
     font-size: 0.675rem;
-    padding: 10px 15px;
+    padding: 10px;
     width: 90px;
   }
   .container {
@@ -249,10 +250,10 @@ footer :nth-child(3) {
     z-index: 10;
     background: white;
   }
-    .sec_2cont p {
-      font-size: 1.1rem;
-      width: 50%;
-    }
+  .sec_2cont p {
+    font-size: 1.1rem;
+    width: 50%;
+  }
   .nav-header.active {
     display: flex;
   }
